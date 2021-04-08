@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/d8d33a95e2.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+  <title>Youtube</title>
+</head>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="#"><img src="images/yt_logo.png" class="yt_logo" /></a>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Vido Player -->
+  <section class="player">
+    <video controls src="video/video.mp4" />
+  </section>
+
+  <div class="infoAndUpNext">
+      <!-- Video Info -->
+  <section class="info">
+    <!-- Metadata -->
+    <div class="metadata">
+      <ul class="hashtags">
+        <li>#hashtags1</li>
+        <li>#hashtags2</li>
+        <li>#빨리취업하자</li>
+      </ul>
+      <div class="titleAndButton">
+        <span class="title clamp">
+          할만한 영상이 없으니 기본영상으로 하고 list 는 재롱이로 채우자 귀여운게 최고야| 취업준비생의 소소한 힐링시간
+        </span>
+        <button class="moreBtn">
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+      <span class="views">조회수 366,425 2021.04.02.</span>
+    </div>
+    <!-- Actions -->
+    <ul class="actions">
+      <li>
+        <button class="each__icons"><i class="active fas fa-thumbs-up icon"></i><br />
+          <span>1K</span>
+        </button>
+      </li>
+      <li>
+        <button class="each__icons"><i class="fas fa-thumbs-down icon"></i><br />
+          <span>0</span>
+        </button>
+      </li>
+      <li>
+        <button class="each__icons"><i class="fas fa-share icon"></i><br />
+          <span>Share</span>
+        </button>
+      </li>
+      <li>
+        <button class="each__icons"><i class="fas fa-plus icon"></i><br />
+          <span>Save</span>
+        </button>
+      </li>
+      <li>  
+        <button class="each__icons"><i class="fas fa-flag icon"></i><br />
+          <span>Report</span>
+        </button> 
+      </li>
+    </ul>
+    <!-- Chnnel Description -->
+    <div class="channel">
+      <div class="metadata">
+        <img src="images/1.jpg" alt="profile_photo" />
+        <div class="info">
+          <span class="name">Eunji</span>
+          <span class="subscribers">1M subscribers</span>
+        </div>
+      </div>
+      <button class="subscribe">subscribed</button>
+    </div>
+  </section>
+
+  <!-- Up Next -->
+  <section class="upNext">
+    <span class="title">Up next</span>
+    <ul>
+      <li class="item">
+        <div class="img">
+          <img src="images/upNext1.PNG" alt="첫번째영상" />
+        </div>
+        <div class="info">
+          <span class="title">오늘 날씨는 재롱</span>
+          <span class="name">재롱잔치</span>
+          <span class="views">3.8만회</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+      <li class="item">
+        <div class="img">
+          <img src="images/upNext2.PNG" alt="두번째영상" />
+        </div>
+        <div class="info">
+          <span class="title">
+            강아지 ASMR : 강아지 확대범
+          </span>
+          <span class="name">재롱잔치</span>
+          <span class="views">7.5만회</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+      <li class="item">
+        <div class="img">
+          <img src="images/upNext3.PNG" alt="세번째영상" />
+        </div>
+        <div class="info">
+          <span class="title">
+            동네 제설 작업 들어간다
+          </span>
+          <span class="name">재롱잔치</span>
+          <span class="views">9.6만회</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+    </ul>
+  </section>
+  </div>
+</body>
+</html>
